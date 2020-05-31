@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+#allform{ margin:20px;
+	
+	
+}
+.text{
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 20px;
+}
+.textwithbg{
+	font-size: 12px;
+	width:250px;
+	height:40px;
+	background-color: #cbff5c;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 20px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 1px solid #9ce401;
+	border-radius:3px;
+	display:block;	
+}
+.textwithbg a{
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 20px;
+	color: #09F;
+	text-decoration: none;
+}
+.textfeilds{
+	border-radius: 3px;
+	text-align: left;
+	height: 35px;
+	width: 500px;
+	margin-top:10px;
+	margin-bottom:5px;
+	background: #FFF url(../_images/posttextfeild.png) no-repeat 3px 3px;
+	padding-left: 35px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #8B8B8B;
+	border: 1px solid #999;
+}
+.textarea{
+	width:500px;
+	height:200px;
+	border-radius: 3px;
+	text-align: left;
+	margin-top:10px;
+	margin-bottom:5px;
+	padding-left: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #8B8B8B;
+	border: 1px solid #999;
+	
+}
+#currency{
+	border-radius: 3px;
+	text-align: right;
+	height: 35px;
+	width: 150px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-right: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #8B8B8B;
+	border: 1px solid #999;
+	background: #FFF url(../_images/currency.png) no-repeat 3px 3px;	
+}
+#sellerinfo{
+		height: 40px;
+	font-size: 24px;
+	color: #FFF;
+	background-color: rgb(51,51,51);
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Times New Roman";
+	border-radius:5px;
+	border: 1px solid #b07df4;
+	margin-top:20px;
+}
+#submit{
+background: #fee38a; /* Old browsers */
+background: url(../_images/submit.png) no-repeat 4px 4px, -moz-linear-gradient(top,  #fee38a 1%, #ffe083 51%, #fecc2d 100%); /* FF3.6+ */
+background: url(../_images/submit.png) no-repeat 4px 4px, -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fee38a), color-stop(51%,#ffe083), color-stop(100%,#fecc2d)); /* Chrome,Safari4+ */
+background: url(../_images/submit.png) no-repeat 4px 4px, -webkit-linear-gradient(top,  #fee38a 1%,#ffe083 51%,#fecc2d 100%); /* Chrome10+,Safari5.1+ */
+background: url(../_images/submit.png) no-repeat 4px 4px, -o-linear-gradient(top,  #fee38a 1%,#ffe083 51%,#fecc2d 100%); /* Opera 11.10+ */
+background: url(../_images/submit.png) no-repeat 4px 4px, -ms-linear-gradient(top,  #fee38a 1%,#ffe083 51%,#fecc2d 100%); /* IE10+ */
+background: url(../_images/submit.png) no-repeat 4px 4px, linear-gradient(to bottom,  #fee38a 1%,#ffe083 51%,#fecc2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee38a', endColorstr='#fecc2d',GradientType=0 ); /* IE6-9 */
+
+
+	border-radius: 3px;
+	text-align: left;
+	height: 40px;
+	width: 100px;
+	margin-top:10px;
+	padding-left: 35px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color:#000;
+	border: 1px solid #999;		
+}

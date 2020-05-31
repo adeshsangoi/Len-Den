@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.ftall{ height:160px;
+width:100%;
+margin-top:15px;
+margin-bottom:15px;
+
+	
+}
+#fline{
+	background-image: url(../_images/footerline.png);
+	background-repeat: repeat-x;
+	height:10px;
+	
+}
+#fbody{
+	background-image: url(../_images/footerbg.png);
+	width: 100%;
+	height: 150px;
+	-webkit-box-shadow: 0px 2px 2px 0px #000;
+	box-shadow: 0px 2px 2px 0px #000;
+}
+#contentsbody{ width:900px;
+margin:0px auto;	
+}	
+#content{
+	border-right:solid #CCC 1px;
+	width: 298px;
+	height: 145px;
+	float:left;
+}
+#content ul{ padding-left:70px;
+	
+}
+#content ul li{ height:30px;
+line-height:40px;
+
+	list-style-image: url(../_images/post-and-sale-imagefooter.png);
+
+	
+}
+#content ul li a{
+	line-height: 16px;
+	font-size: 14px;
+	color: 9958f1;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#content h2{ padding-top:15px;
+color: #FFFFFF;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 20px;	
+}
+#content img{ border-left:none;
+		
+}
+#socialimg{ width: 298px;
+	height: 145px;
+	float:left;
+	border-left:none;
+	
+}
+#socialimg img{ 
+margin-left:40px;
+margin-top:15px;
+float:left;	
+}
+#socialimg h2{ padding-top:15px;
+color: #FFFFFF;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 20px;	
+}
+#policy{ height:15px;
+	background-color: #d0affd;
+	margin-top:2px;
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+#policy a{ text-align:center;
+text-decoration:none;
+
+line-height:14px;
+	font-size:14px;
+	color: #FFF;	
+}

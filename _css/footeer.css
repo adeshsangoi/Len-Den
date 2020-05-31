@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footall{ height:170px;
+width:100%;
+}
+
+#upimage{ height:10px;
+	background-image: url(../_images/footerline.png);
+	background-repeat: repeat-x;
+}
+#bodyback{ background: #cfadfd; /* Old browsers */
+background: -moz-linear-gradient(top,  #cfadfd 1%, #b17ff4 67%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cfadfd), color-stop(67%,#b17ff4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cfadfd 1%,#b17ff4 67%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cfadfd 1%,#b17ff4 67%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cfadfd 1%,#b17ff4 67%); /* IE10+ */
+background: linear-gradient(to bottom,  #cfadfd 1%,#b17ff4 67%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfadfd', endColorstr='#b17ff4',GradientType=0 ); /* IE6-9 */
+
+height:150;
+	background-repeat: repeat-x;
+}
